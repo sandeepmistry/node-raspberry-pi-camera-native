@@ -1,5 +1,5 @@
 {
-  "name": "raspberry-pi-camera",
+  "name": "raspberry-pi-camera-native",
   "version": "0.0.0",
   "description": "Use your Raspberry Pi Camera Module with Node.js",
   "main": "index.js",
@@ -14,14 +14,15 @@
     "Raspberry Pi",
     "Raspberry",
     "Pi",
-    "Camera"
+    "Camera",
+    "native"
   ],
   "author": "Sandeep Mistry",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sandeepmistry/node-raspberry-pi-camera/issues"
+    "url": "https://github.com/sandeepmistry/node-raspberry-pi-camera-native/issues"
   },
-  "homepage": "https://github.com/sandeepmistry/node-raspberry-pi-camera#readme",
+  "homepage": "https://github.com/sandeepmistry/node-raspberry-pi-camera-native#readme",
   "dependencies": {
     "bindings": "^1.3.0",
     "node-addon-api": "^1.2.0"

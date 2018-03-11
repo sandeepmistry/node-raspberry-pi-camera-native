@@ -1,4 +1,4 @@
-# node-raspberry-pi-camera
+# node-raspberry-pi-camera-native
 
 Use your [Raspberry Pi Camera Module](https://www.raspberrypi.org/documentation/hardware/camera/README.md) with [Node.js](https://nodejs.org)
 
@@ -17,14 +17,14 @@ Use your [Raspberry Pi Camera Module](https://www.raspberrypi.org/documentation/
 ## Install
 
 ```
-npm install raspberry-pi-camera
+npm install raspberry-pi-camera-native
 ```
 
 ## Usage
 
 ```javascript
 // require module
-const raspberryPiCamera = require('raspberry-pi-camera');
+const raspberryPiCamera = require('raspberry-pi-camera-native');
 
 // add frame data event listener
 raspberryPiCamera.on('frame', (frameData) => {

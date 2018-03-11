@@ -5,7 +5,7 @@
 
 const http = require('http');
 
-const raspberryPiCamera = require('../index'); // or require('raspberry-pi-camera');
+const raspberryPiCamera = require('../index'); // or require('raspberry-pi-camera-native');
 
 let fps = 0;
 
