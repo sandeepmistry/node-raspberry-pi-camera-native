@@ -1,22 +1,10 @@
 //
 // This example starts camera capture and a web server on port 8000 to serve live images.
-// It also outputs the current capture frames per second (fps) to the console
 //
 
 const http = require('http');
 
 const raspberryPiCamera = require('../index'); // or require('raspberry-pi-camera-native');
-
-let fps = 0;
-
-let fpsInterval = setInterval(function() {
-  console.log('fps', fps);
-  fps = 0;
-}, 1000);
-
-raspberryPiCamera.on('frame', function(data) {
-  fps++;
-});
 
 raspberryPiCamera.start({
   width: 1280,
